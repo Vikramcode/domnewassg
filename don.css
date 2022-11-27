@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:gray ;
+}
+.head{
+    background-color: rgb(27, 89, 89);
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+}
+.head2{
+    text-align: center;
+    color:#fff;
+    padding:2%;
+}
+.button{
+    text-align: center;
+    padding: 5%;
+}
+.button button{
+    background: rgb(28, 126, 126);
+    color:#fff;
+    padding: 0.5%;
+    border-style:none;
+    border-radius: 5px;
+}
+.img{
+    /* align-items: center; */
+    text-align: center;
+}
+.values{
+    text-align: center;
+}
+.values span{
+    padding-left: 20px;
+}
+#addbtn{
+    padding-left: 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 5px;
+}
+.delete-btn{
+    width:100%;
+    height: 20%;
+    border-radius: 8px;
+    background-color:magenta;
+    font-weight: bold;
+}
+#items{
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+    height: 80%;
+    border-radius: 8px;
+    border: 0.5px solid black;
+}
+.store-item{
+    width: 210px;
+    height: 200px;
+    border-radius: 5px;
+    min-width: 200px;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+
+}
